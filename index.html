@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-1 </title>
+
+</head>
+<body>
+
+    
+       
+
+    <input id="text1" type="text" placeholder="Enter your values">
+    <br><br><button onClick=myFunction()>CHECK OUTPUT</button> <script>
+     function myFunction() { 
+        var str = document.getElementById("text1").value;
+        const myarr=str.split(",")
+        const output=[]
+         if ((myarr[0]=="a" && myarr[1]=="b") || (myarr[0]=="b" && myarr[1]=="c")|| (myarr[0]=="a" && myarr[1]=="c")){ for(let i=0;
+         i<myarr.length;i++) { for(let j=0;j<myarr.length;j++) { output.push("("+myarr[i]+","+myarr[j]+")"); }
+          } 
+          alert(output);} 
+          }
+           </script>
+
+    </body>
+</html><!DOCTYPE html>
